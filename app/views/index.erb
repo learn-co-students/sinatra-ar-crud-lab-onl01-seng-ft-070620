@@ -1,0 +1,4 @@
+<h1> Articles Index: </h1>
+<% @articles.each do |article| %>
+<h2> <%= article.id.to_s + ". " + article.title %> </h2>
+<% end %>
