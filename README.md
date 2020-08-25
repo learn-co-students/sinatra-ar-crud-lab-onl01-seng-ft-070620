@@ -8,7 +8,7 @@
 
 We've had a lot of practice with the ActiveRecord CRUD actions, so now it's
 time to tie them to controller actions in a Sinatra application. In this lab,
-you'll be building a basic magazine app, using every CRUD action.
+you'll be building a basic magazine app, using every CRUD action. 
 
 **Important:** In Sinatra, the order in which you define your routes in a
 controller matters. Routes are matched in the order they are defined. So, if we
